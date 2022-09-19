@@ -1,15 +1,14 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Brian's Portfolio</title>
+        <title>Brian Spencer Portfolio</title>
       </Head>
 
-      <h1>Lets build a modern new portfolio</h1>
+      <h1 className='text-blue-400'>Lets build a modern new portfolio</h1>
     </div>
   )
 }
