@@ -8,7 +8,20 @@ const Home: NextPage = () => {
         <title>Brian Spencer Portfolio</title>
       </Head>
 
-      <h1 className='text-blue-400'>Lets build a modern new portfolio</h1>
+
+      {/* Header */}
+
+      {/* Hero Section */}
+
+      {/* About */}
+
+      {/* Experience */}
+
+      {/* Skills */}
+
+      {/* Projects */}
+
+      {/* Contact Me */}
     </div>
   )
 }
