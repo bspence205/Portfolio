@@ -5,7 +5,8 @@ type Props = {}
 
 export default function Header({}: Props) {
   return (
-    <header className='sticky top-0 flex items-start justify-between'>
+    <header className='sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20
+    xl:items-center'>
         <div className='flex flex-row justify-between'>
         {/* Social Icon */}
 
@@ -14,7 +15,7 @@ export default function Header({}: Props) {
         bgColor='transparent'
         />
 
-        <SocialIcon url='https://github.com/bspence205'
+        <SocialIcon url='https://www.linkedin.com/in/brian-spencer-99733823b'
         fgColor='gray'
         bgColor='transparent'
         />
