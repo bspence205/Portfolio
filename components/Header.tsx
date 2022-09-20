@@ -20,7 +20,7 @@ export default function Header({}: Props) {
         bgColor='transparent'
         />
 
-        <SocialIcon url='https://github.com/bspence205'
+        <SocialIcon url='https://facebook.com'
         fgColor='gray'
         bgColor='transparent'
         />
