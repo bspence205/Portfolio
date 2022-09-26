@@ -31,6 +31,22 @@ function About({}: Props) {
        className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
        md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
        />
+
+       <div className='space-y-10 px-0 md:px-10'>
+            <h4 className='text-4xl font-semibold'>Check out my{" "}
+            <span className='underline decoration-[#F7AB0A]/50'>background</span>{" "}
+            </h4>
+            <p className='text-base'>
+                Hi! I'm Brian, a curious and problem solving Front End Developer. I was first drawn to Front End Development 
+                by the way it combines creativity, logic and design to create products with user needs in mind. Since then, I have
+                been constantly seeking for opportunities to expand my knowledge and apply my skills to design in the exciting
+                digital age. As a Front End Developer, I embrace the challenge of turning complex goals into easy to use designs to 
+                create better user experiences through the design thinking process. With a 3 year background in accounting, I developed 
+                my ability to analyze problems which I apply to my development process in understanding the what, when, how, and why.
+                Furthermore, I excel in strong team atmosphere with the ability to work collaboratively and cross-functionally and value 
+                different perspectives and efficiencies. My core strengths include being adaptable, problem solving, and being learning oriented. 
+            </p>
+       </div>
     </div>
   )
 }
