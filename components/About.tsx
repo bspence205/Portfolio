@@ -5,7 +5,11 @@ type Props = {}
 
 function About({}: Props) {
   return (
-    <div className='flex flex-col relative h-screen
+    <motion.div 
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    transition={{duration: 1.5 }}
+    className='flex flex-col relative h-screen
     text-center md:text-left md:flex-row max-w-7xl px-10
     justify-evenly mx-auto items-center'>
         <h3 className='absolute top-24 uppercase
@@ -37,7 +41,7 @@ function About({}: Props) {
             <span className='underline decoration-[#F7AB0A]/50'>background</span>{" "}
             </h4>
             <p className='text-base'>
-                Hi! I'm Brian, a curious and problem solving Front End Developer. I was first drawn to Front End Development 
+                Hi! I&apos;m Brian, a curious and problem solving Front End Developer. I was first drawn to Front End Development 
                 by the way it combines creativity, logic and design to create products with user needs in mind. Since then, I have
                 been constantly seeking for opportunities to expand my knowledge and apply my skills to design in the exciting
                 digital age. As a Front End Developer, I embrace the challenge of turning complex goals into easy to use designs to 
@@ -47,7 +51,7 @@ function About({}: Props) {
                 different perspectives and efficiencies. My core strengths include being adaptable, problem solving, and being learning oriented. 
             </p>
        </div>
-    </div>
+    </motion.div>
   )
 }
 
