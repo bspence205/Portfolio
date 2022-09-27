@@ -16,6 +16,8 @@ function Skill({ directionLeft }: Props) {
             transition={{ duration: 1 }}
             whileInView={{ opacity: 1, x: 0 }}
             src="https://img.icons8.com/office/344/react.png"
+            className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32
+            xl:h-32 filter group-hover:grayscale transition duration-200 ease-in-out'
         />
     </div>
   )
