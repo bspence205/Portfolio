@@ -18,7 +18,7 @@ function Projects({}: Props) {
         </h3>
 
         <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory
-        z-20 scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
+        z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
             {projects.map((project, i) => (
                 <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5
                 items-center justify-center p-20 md:p-44 h-screen'>
@@ -38,7 +38,7 @@ function Projects({}: Props) {
                     </h4>
 
                     <p className='text-lg text-center md:text-left'>
-                        Twitter clone app that has a log in and log out authentication with Twitter API. It has a beautiful homescreen
+                        Twitter clone app that has a log in and log out authentication with Twitter API. It has a beautiful home screen
                         with all components styled just like twitter. There is also a subscription page where you can see your active feed.
                         I also use twitter api to pull ReactJS live tweets. 
                     </p>
